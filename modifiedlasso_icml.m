@@ -32,7 +32,7 @@ options=optimoptions('patternsearch','MaxFunctionEvaluations',1000000,'MaxIterat
 %lambda values and note sparsity of each 
 %solution vector for each value of lambda. For other experiment comparing
 %coreset for different sample sizes comment the lasso  and ridge solutions.
-%and run for each lambda separately. You have to check the coordinate values of vector and conver them to zero if absolute value less than 10^-6. 
+%and run for each lambda separately. You have to check the coordinate values of vector and convert them to zero if absolute value less than 10^-6. 
 %For more details please see the experiment section in the paper.
 
 %modified lasso function definition
